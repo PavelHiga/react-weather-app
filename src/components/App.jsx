@@ -46,7 +46,6 @@ const App = () => {
                         < BiSearch className='w-10 h-10 text-[#B3B5C9]' />
                     </button>
                 </div>
-                { }
                 {error ? <Error /> : isLoading ? <Loader /> : apiData ? <Content data={apiData} /> : <Start />}
             </div>
         </div>
